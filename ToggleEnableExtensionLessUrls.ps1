@@ -45,4 +45,3 @@ if(Test-RegistryValue $netFourPath $property){
 	"Updated to 0 - EnableExtensionLessUrls is off"
 	New-ItemProperty $netFourPath -name $property -value "0" -propertyType dword
 }
-
